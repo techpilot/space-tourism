@@ -1,0 +1,136 @@
+.desScreen {
+    position: relative;
+    height: 100vh;
+    background: url("../images/Bitmap.jpg")
+    center no-repeat;
+    background-size: cover;
+}
+
+.desScreen__body {
+    color: rgb(240, 242, 240);
+    display: flex;
+    flex-direction: column;
+    padding-top: 200px;
+    max-width: 80%;
+    justify-content: space-between;
+    position: fixed;
+}
+
+.desScreen__heading {
+    margin-left: 16%;
+    margin-bottom: 2.5%;
+    font-size: x-large;
+}
+
+.desScreen__details {
+    display: flex;
+    flex-direction: column;
+}
+
+.desScreen__tabs {
+    display: flex;
+    position: fixed;
+    right: 26.5rem;
+}
+
+.desScreen__moon {
+    margin-right: 2rem;
+    padding-bottom: 0.5rem;
+}
+
+.desScreen__moon:hover {
+    cursor: pointer;
+    border-bottom: 3px solid #fff;
+}
+
+.desScreen__mars {
+    margin-right: 2rem;
+    padding-bottom: 0.5rem;
+}
+
+.desScreen__mars:hover {
+    cursor: pointer;
+    border-bottom: 3px solid #fff;
+}
+
+.desScreen__europa {
+    margin-right: 2rem;
+    padding-bottom: 0.5rem;
+}
+
+.desScreen__europa:hover {
+    cursor: pointer;
+    border-bottom: 3px solid #fff;
+}
+
+.desScreen__titan {
+    margin-right: 2rem;
+    padding-bottom: 0.5rem;
+}
+
+.desScreen__titan:hover {
+    cursor: pointer;
+    border-bottom: 3px solid #fff;
+}
+
+.desScreen__writeup {
+    display: flex;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+.desScreen__pic {
+    height: 80%;
+    margin-left: 20%;
+}
+
+.desScreen__writings {
+    margin-left: 20%;
+    margin-top: -20px;
+}
+
+.desScreen__writings > h1 {
+    font-weight: 500;
+    font-size: xxx-large;
+    color: rgb(212, 209, 203);;
+}
+
+.desScreen__about {
+    margin-top: -1rem;
+    padding-bottom: 4rem;
+    border-bottom: 1px solid gray;
+    font-weight: lighter;
+    color: lightgray;
+    line-height: 1.7;
+}
+
+.desScreen__avg {
+    display: flex;
+    margin-top: 30px;
+}
+
+.desScreen__distance {
+    margin-right: 50px;
+}
+
+.desScreen__distance > p {
+    font-size: small;
+    color: gray;
+    margin-bottom: -3rem;
+}
+
+.desScreen__distance > h6 {
+    font-size: x-large;
+    font-weight: lighter;
+}
+
+.desScreen__time > p {
+    font-size: small;
+    color: gray;
+    margin-bottom: -3rem;
+}
+
+.desScreen__time > h6 {
+    font-size: x-large;
+    font-weight: lighter;
+}

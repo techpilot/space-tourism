@@ -1,0 +1,181 @@
+.homeScreen  {
+    position: relative;
+    height: 100vh;
+    background: url("../images/Bitmap-1.jpg")
+                center no-repeat;
+    background-size: cover;
+}
+
+.homeScreen__navContents {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.homeScreen__navSpace {
+    border-top: white;
+}
+
+.homeScreen__navLogos {
+    margin-right: 40%;
+    margin-left: -3%;
+}
+
+.homeScreen__navLogo {
+    position: fixed;
+    left: 5px;
+    margin-left: 3%;
+    height: fit-content;
+    background: url("../images/Oval.png")
+                center no-repeat;
+    background-size: cover;
+}
+
+.homeScreen__navTabs {
+    display: flex;
+    color: rgb(240, 242, 240);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    padding-top: 20px;
+    padding-bottom: -1rem
+}
+
+/* HOME */
+#homeScreen__homeId {
+    display: flex;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+#homeScreen__homeId:hover {
+    cursor: pointer;
+    border-bottom: 3px solid #fff;
+}
+
+#homeScreen__homeId:active {
+    border-bottom: 3px solid #fff;
+}
+
+.homeScreen__home1 {
+    font-weight: bold;
+    padding-right: 5px;
+}
+
+.homeScreen__home {
+    padding-bottom: 20px;
+}
+
+/* DESTINATION */
+#homeScreen__desId {
+    display: flex;
+    margin-right: 50px;
+}
+
+#homeScreen__desId:hover {
+    cursor: pointer;
+    border-bottom: 3px solid #fff;
+}
+
+.homeScreen__des1 {
+    font-weight: bold;
+    padding-right: 5px;
+}
+
+.homeScreen__des {
+    padding-bottom: 20px;
+}
+
+/* CREW */
+#homeScreen__crewId {
+    display: flex;
+    margin-right: 50px;
+}
+
+#homeScreen__crewId:hover {
+    cursor: pointer;
+    border-bottom: 3px solid #fff;
+}
+
+.homeScreen__crew1 {
+    font-weight: bold;
+    padding-right: 5px;
+}
+
+.homeScreen__crew {
+    padding-bottom: 20px;
+}
+
+/* TECHNOLOGY */
+#homeScreen__techId {
+    display: flex;
+    margin-right: 50px;
+}
+
+#homeScreen__techId:hover {
+    cursor: pointer;
+    border-bottom: 3px solid #fff;
+}
+
+.homeScreen__tech1 {
+    font-weight: bold;
+    padding-right: 5px;
+}
+
+.homeScreen__tech {
+    padding-bottom: 20px;
+}
+
+.homeScreen__navTabs > p {
+    margin-left: 10px;
+    margin-right: 10px;
+    /*justify-content: space-between;*/
+}
+
+.homeScreen__body {
+    display: flex;
+    max-width: 88%;
+    justify-content: space-between;
+    padding-top: 150px;
+    /*padding-bottom: 110px;*/
+    /*margin-bottom: 50px;*/
+}
+
+.homeScreen__writeup {
+    max-width: 30%;
+    margin-left: 10%;
+    margin-top: 100px;
+    color: rgb(240, 242, 240);
+    justify-content: space-around;
+}
+
+.homeScreen__writeup > h3 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: -10px;
+    padding-bottom: -10px;
+}
+
+.homeScreen__writeup > h1 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 110px;
+    font-weight: 800;
+    margin-top: 30px;
+    margin-bottom: -1px;
+}
+
+.homeScreen__writeup > p {
+    padding-top: 20px;
+    line-height: 1.7;
+}
+
+.homeScreen__pic {
+    padding-top: 10%;
+    height: 60%;
+}
+
+.homeScreen__space {
+    padding-bottom: 30%;
+}

@@ -1,0 +1,51 @@
+.crewScreen {
+    position: fixed;
+    height: 100vh;
+    background: url("../images/Bitmap-2.jpg")
+    center no-repeat;
+    background-size: cover;
+}
+
+.crewScreen__body {
+    display: flex;
+    padding-top: 12%;
+    max-width: 90%;
+    color: rgb(240, 242, 240);
+}
+
+.crewScreen__details {
+    margin-left: 15%;
+}
+
+.crewScreen__title {
+    margin-bottom: 11%;
+    font-weight: lighter;
+    font-size: x-large;
+}
+
+.crewScreen__heading {
+    padding-top: 10%;
+}
+
+.crewScreen__heading > h4 {
+    font-weight: lighter;
+    font-size: xx-large;
+    margin-bottom: -0.5rem;
+    color: gray;
+}
+
+.crewScreen__heading > h2 {
+    font-size: xxx-large;
+    font-weight: 300;
+    margin-top: -3px;
+}
+
+.crewScreen__writeup {
+    max-width: 56%;
+    line-height: 1.7;
+    color: rgb(199, 199, 199);
+}
+
+.crewScreen__pic {
+    height: 92%;
+}
